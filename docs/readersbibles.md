@@ -1,6 +1,4 @@
-# Reader's Bibles
-
-## Reader’s Bibles and Interlinear Bibles
+# Reader’s Bibles and Interlinear Bibles
 
 An interlinear Bible is a version of the Bible where every word is translated (and perhaps parsed). It is a helpful resource, but it is not very easy to read.
 

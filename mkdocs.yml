@@ -1,10 +1,12 @@
 site_name: Open Reader's Bibles
 nav:
   - Home: index.md
-  - Reader's Bibles: readersbibles.md
-    - Good glosses: good-glosses.md
-    - Deciding on frequency thresholds: frequency-thresholds.md
-  - About: about.md
+  - Reader's Bibles:
+     - Good glosses: good-glosses.md
+     - Deciding on frequency thresholds: frequency-thresholds.md
+     - Reader’s Bibles and Interlinear Bibles: readersbibles.md
+  - About:
+    - About the project: about.md
     - License: license.md
     - Security: security.md
 theme: readthedocs
