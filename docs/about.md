@@ -1,17 +1,11 @@
-# About
+# About Reader's Bibles
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Reader’s Bibles and Interlinear Bibles
 
-## Commands
+An interlinear Bible is a version of the Bible where every word is translated (and perhaps parsed). It is a helpful resource, but it is not very easy to read.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+A reader’s Bible is different. The text is laid out like a normal book. There are footnotes that help with parsing and word meanings, but these don’t interfere with your ability to read the text.
 
-## Project layout
+There is perhaps a deeper difference. An interlinear Bible is really for people who don’t really understand Greek or Hebrew. A reader’s Bible is for people who have studied Greek and Hebrew, but need occasional help. They are growing as readers.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The reader’s Bible actually makes you a better reader. If you always have to look up words in a dictionary or a parsing guide, then that slows you down. It’s frustrating. But if you can just have a little help with a word meaning here, or a parsing there, you can read more, and enjoy reading. And as you read, you get better at reading. You depend less and less on the footnotes. 
