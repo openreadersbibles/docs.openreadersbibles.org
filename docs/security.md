@@ -10,8 +10,8 @@ For example, suppose you enter the username “BibleGeek1990.” Someone could g
 ## What your internet company and government can see
 This website uses the typical, modern internet security.  That means that:
 
-* Your internet company, and likely your government, will know that you are visiting [openreadersbibles.org](openreadersbibles.org). 
+* Your internet company, and likely your government, will know that you are visiting [openreadersbibles.org](https://openreadersbibles.org). 
 
-* They will not be able to see what you are doing on [openreadersbibles.org](openreadersbibles.org).
+* They will not be able to see what you are doing on [openreadersbibles.org](https://openreadersbibles.org).
 
-If you don’t want anyone to know even that you are visiting [openreadersbibles.org](openreadersbibles.org), then you should use a VPN.
+If you don’t want anyone to know even that you are visiting [openreadersbibles.org](https://openreadersbibles.org), then you should use a VPN.
