@@ -1,5 +1,10 @@
 site_name: Open Reader's Bibles
 nav:
   - Home: index.md
+  - Reader's Bibles: readersbibles.md
+    - Good glosses: good-glosses.md
+    - Deciding on frequency thresholds: frequency-thresholds.md
   - About: about.md
+    - License: license.md
+    - Security: security.md
 theme: readthedocs
