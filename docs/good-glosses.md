@@ -23,3 +23,8 @@ This will be different for different languages. So, it would be a bad idea just 
 You can decide how much you want to help your readers. The Hebrew word נכה has many possible translations—“strike” or “kill” and maybe others. Do you want to help the reader see each individual translation, or do you want to force the reader to think about how one Hebrew word can have several different meanings?
 
 These are decisions that each individual has to make.
+
+## Tips
+
+* Keep the glosses grammatical neutral. Example: Even though you see τεκνία (which is plural) in the text, make the gloss singular (e.g., “child”). The reader will see from the rest of the footnote that it's a plural word.
+* With Hebrew words, you may want to have different glosses for different stems (e.g., qal vs. niphal).

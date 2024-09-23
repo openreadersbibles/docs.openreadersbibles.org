@@ -5,8 +5,10 @@ nav:
      - Good glosses: good-glosses.md
      - Deciding on frequency thresholds: frequency-thresholds.md
      - Reader’s Bibles and Interlinear Bibles: readersbibles.md
+     - Glossary of Terms: glossary.md
   - About:
     - About the project: about.md
     - License: license.md
+    - Credits: credits.md
     - Security: security.md
 theme: readthedocs

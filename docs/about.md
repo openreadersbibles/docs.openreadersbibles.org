@@ -16,4 +16,4 @@ As I continued to read in my reader’s Bible, I thought about how it had been p
 
 Fairly soon after I finished reading through the Old Testament for the first time, I was at a conference with a lot of Russians. I was doing my devotions in the hotel lobby, and a new Russian friend sat down. He was a pastor, and also fluent in English. He noticed the book, and said that he had the same one: someone had brought it in for him specially in Russia. I was glad that he too was able to use it, but I was also upset. First, he could only get that book because he knew an expatriate who could bring it in for him. Second, he could only benefit from it because he already knew English. How many more Russians would benefit from a Russian reader’s Bible? How many people of other languages would also benefit?
 
-So, some time after that, here are are.
+So, at some point after that, I decided to make this a priority.

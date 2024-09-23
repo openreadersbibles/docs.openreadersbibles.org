@@ -1,7 +1,5 @@
 # Frequency Thresholds
-> tl;dr
-> 
-> For the New Testament, it is recommended to gloss words that occur fewer than 30 times. For the Old Testament, it is recommended to gloss words that occur fewer than 50 times.
+*tl;dr: For the New Testament, it is recommended to gloss words that occur fewer than 30 times. For the Old Testament, it is recommended to gloss words that occur fewer than 50 times.*
 
 A preliminary: In this section, when we talk about a “word” we are talking about the word you would find in the dictionary. For instance *logos* is one Greek word—even though it has different forms for nominative, accusative, and so forth. (And even though *logos* occurs 330 times in the New Testament, it still just counts as one word.)
 
@@ -34,4 +32,11 @@ We can look at the same chart for the Old Testament. Of course, it is a lot long
 | 10                                                | 6897                                         | 2333                                              |
 
 ## Why not gloss all the words?
-You might be thinking, “It wouldn’t be much more work for me to provide glosses for all of the words!” Although it’s true there aren’t many words that occur very frequently, it’s also true that those words will have many more meanings. For instance, the Greek word *logos* can mean “word” (or “Word”!), “message,” or “report” depending on the context. The more time a word occurs, the more attention it will require.
+You can certainly gloss all of the words if you wish to do so. There are two reasons you might not want to:
+
+1. A reader's Bible is for people who have a basic grasp of the language. People shouldn't *need* to look up every word. (See [Reader’s Bibles and Interlinear Bibles](readersbibles.md))
+2. It will require a lot more work for you to gloss the words that occur very frequently.
+
+Although it’s true there aren’t many words that occur very frequently, it’s also true that those words will have many more meanings. For instance, the Greek word *logos* can mean “word” (or “Word”!), “message,” or “report” depending on the context. The more time a word occurs, the more attention it will require.
+
+If you do wish to gloss all of the words, however, you can do that by using a frequency cutoff of 7,000 for the Old Testament, and 20,000 for the New Testament.
