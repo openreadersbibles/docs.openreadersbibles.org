@@ -2,7 +2,7 @@
 
 
 ## Settings to help your language display correctly on the website
-These are settings that make your language display nicely on teh website. For instance, you may have a font on your computer that you prefer to use.
+These are settings that make your language display nicely on the website. For instance, you may have a font on your computer that you prefer to use.
 
 ## Settings to help your language display correctly when it is published
 These are settings that related to generating the PDFs.

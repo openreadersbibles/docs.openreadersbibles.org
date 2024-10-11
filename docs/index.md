@@ -10,7 +10,7 @@ This is a website that will help you to produce your own reader’s Bible. It is
 How much work is this? This is what you will provide:
 
 * You provide the glosses for the words.
-* You translate the grammatical term (indicative, subjunctive, qal, niphal, etc.)
+* You translate the grammatical terms (indicative, subjunctive, qal, niphal, etc.)
 
 Here is what we can provide:
 
