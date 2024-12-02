@@ -15,3 +15,6 @@ This will depend on the frequency threshold. The lower your threshold, the more 
 If we run out of footnote markers, we start back at the beginning. So if you only specify “a,b,c,d,e” then the order of footnotes would be: “a,b,c,d,e,a,b,c,d,e,a,b,c,d,e,...”. (That may not be bad; maybe your readers would able to figure it out.)
 
 Another strategy is to use doubled letters after you've gone through all of the alphabet: “a,b,c,d,e...,x,y,z,aa,bb,cc,dd,ee...”.
+
+## Parsing Formats
+See [Parsing Formats](parsing-formats.md).

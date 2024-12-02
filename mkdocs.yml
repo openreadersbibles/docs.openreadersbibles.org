@@ -12,10 +12,11 @@ nav:
     - Adding Glosses: gloss-types.md
     - Project Settings: project-settings.md
     - Markdown: markdown.md
-    - Publication Overview: publication-overview.md
   - Publication:
+    - Publication Overview: publication-overview.md
     - Fonts: fonts.md
     - Do It Yourself: DIY.md
+    - Parsing Formats: parsing-formats.md
   - About:
     - About the project: about.md
     - License: license.md
