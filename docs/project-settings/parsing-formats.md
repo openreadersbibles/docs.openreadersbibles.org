@@ -1,26 +1,29 @@
-# Parsing Formats
+# Project Settings
+## Parsing Formats
 Aside from providing glosses for the words, you need to set up a format for the grammatical parsings. Remember that most of the work is already done: we already have the Greek and Hebrew words parsed! You just need to provide translations for the Greek and Hebrew grammatical terms (e.g., indicative, nominative, qal, piel).
+
+This doesn't have to be set at the beginning of the project. You can enter the glosses without doing it. You just need to do it before you actually publish.
 
 ## Step By Step
 This section goes through the process of setting up a parsing format step-by-step. We'll come back to the idea of “parsing format templates” in the next section.
 
-To set up the parsing format for your project, go to [Project Settings](project-settings.md), then to the “Parsing Formats” tab. For each canon in your project (e.g., NT, OT), you will need at least one parsing format. Click the “Add Format...” button in the relevant section. 
+To set up the parsing format for your project, go to the “Parsing Formats” section of project settings. For each canon in your project (e.g., NT, OT), you will need at least one parsing format. Click the “Add Format...” button in the relevant section. 
 
 The first step is to type in a name for your format—it can be anything, so long as it's unique. Then you can select the parsing format template you want to use. We'll discuss this choice more in the next section. For this example, we've called the parsing format “test” and we've chosen the “OT Verbose” template. Then click “Next.”
 
-![](images/parsing-formats-1.png)
+![](../images/parsing-formats-1.png)
 
 The next step is to translate all of the terms: nominative, interrogative, suffix, passive, and so forth. You can see that the English names are filled in for you already. Once you've translated all of the strings, click “Next.”
 
-![](images/parsing-formats-2.png)
+![](../images/parsing-formats-2.png)
 
 Now you see a list of all of the possible parsings, for nouns and verbs. You can review this list to see if your parsings display correctly. (Typically the left column will have the English parsing, and your parsing will be shown in the right column. In this example we didn't take the trouble to enter in the grammatical terms for a different language.) There are lists for noun forms and verb forms. If you need to revise, click “Back.” If you are satisfied, click “Next.”
 
-![](images/parsing-formats-3.png)
+![](../images/parsing-formats-3.png)
 
 The final step is just to save your parsing.
 
-![](images/parsing-formats-4.png)
+![](../images/parsing-formats-4.png)
 
 ## Parsing Format Templates
 Parsings can be shown in different ways. We have three different types of parsings for each canon: verbose, concise, and templatic. Verbose parsing formats write out the parsing in long form. They are easy for beginners to read, but they will make the book longer. Concise parsing formats use abbreviations and numbers to express the full parsing in just a few characters. They are harder to read, but they make the book shorter (and are perhaps easier for experienced readers to use). A templatic format lets you customize the appearance of the parsing.
@@ -68,7 +71,7 @@ The NT Verbose Format produces parsings that look like the following. You decide
 ### Concise Formats
 
 #### Old Testament
-The OT Concise Format uses a system of abbreviations that is widely used in biblical studies. (It has been attributed to LaSor’s *Handbook of Biblical Hebrew*.) The BHS Reader's Edition provides [this chart](images/bhs-readers-edition-insert.pdf) to summarize it. For this template, you only need to specify the correct abbreviations in your language.
+The OT Concise Format uses a system of abbreviations that is widely used in biblical studies. (It has been attributed to LaSor’s *Handbook of Biblical Hebrew*.) The BHS Reader's Edition provides [this chart](../images/bhs-readers-edition-insert.pdf) to summarize it. For this template, you only need to specify the correct abbreviations in your language.
 
 ### New Testament
 The NT Concise Format is another sort of generally used format for abbreviating parsings.

@@ -10,13 +10,17 @@ nav:
     - The Workspace: workspace.md
     - Glosses & Votes: glosses-votes.md
     - Adding Glosses: gloss-types.md
-    - Project Settings: project-settings.md
     - Markdown: markdown.md
+  - Project Settings:
+    - General Settings: project-settings/general-settings.md
+    - Canons: project-settings/canons.md
+    - Parsing Formats: project-settings/parsing-formats.md
+    - Publication Configurations: project-settings/publication-configurations.md
+    - Project Members: project-settings/project-members.md
   - Publication:
     - Publication Overview: publication-overview.md
     - Fonts: fonts.md
     - Do It Yourself: DIY.md
-    - Parsing Formats: parsing-formats.md
   - About:
     - About the project: about.md
     - License: license.md
