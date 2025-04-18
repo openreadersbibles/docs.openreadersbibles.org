@@ -10,4 +10,4 @@ You can also change user roles. Here are the roles:
 - `disabled` If some member behaves badly, you can disable them. Their votes will no longer count.
 
 ## Power user
-We haven't implemented this yet; the button is there as a reminder for us.
+This is for users who can be trusted to do dangerous things. See [this page](power-users.md) for more details.

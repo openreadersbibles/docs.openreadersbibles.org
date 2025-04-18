@@ -20,7 +20,9 @@ nav:
   - Publication:
     - Publication Overview: publication-overview.md
     - Fonts: fonts.md
-    - Do It Yourself: DIY.md
+  - Advanced:
+    - Power Users: project-settings/power-users.md
+    - Do-It-Yourself Publication: DIY.md
   - About:
     - About the project: about.md
     - License: license.md

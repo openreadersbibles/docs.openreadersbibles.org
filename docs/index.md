@@ -1,6 +1,6 @@
 # Open Reader's Bibles
 
-A reader’s Bible is a Bible that has the original language text of the Bible, alongside of glosses , parsings, and footnotes that help people to understand the text. The goal is to help someone who understands the original languages to be able to read the Bible without constantly having to refer to a dictionary or a parsing chart. They are very helpful for people who have studied the languages for a year or so, and need a bridge to be able to read the Bible fluently in the original languages.
+A reader’s Bible is a Bible that has the original language text of the Bible, along with glosses, parsings, and footnotes that help people to understand the text. The goal is to help someone who understands the original languages to be able to read the Bible without constantly having to refer to a dictionary or a parsing chart. They are very helpful for people who have studied the languages for a year or so, and need a bridge to be able to read the Bible fluently in the original languages.
 
 Reader’s Bibles are generally published by for-profit companies. They need to cover the expense of producing the book. This has two consequences. First, the books are rather expensive (like a textbook). Second, reader’s Bibles are generally only available in languages that have a lot of customers.
 
