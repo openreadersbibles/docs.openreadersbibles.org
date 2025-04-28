@@ -18,6 +18,54 @@ Different files are created for each book. The filenames have formats like `bhsa
 1. `bhsa_OT_JON.json` contains raw(-ish) JSON data. (See “Using the TypeScript” below for help in using this.)
 2. `bhsa_OT_JON.xml` is an XML representation of the book in [TEI format](https://tei-c.org/).
 
+These files differ in their contents. The JSON file is more or less raw data from the database. There are columns that represent parsing data, for instance. The XML file, on the other hand, doesn't have all of the raw data but includes parsing information that is created by a particular [publication configuration](project-settings/publication-configurations.md). 
+
+Here is the JSON content of a certain word in Obadiah 1:11:
+
+```
+    {
+      "_id": 298325,
+      "g_word_utf8": "שְׁבֹ֥ות",
+      "trailer_utf8": " ",
+      "voc_lex_utf8": "שׁבה",
+      "gn": "unknown",
+      "nu": "unknown",
+      "st": "c",
+      "vt": "infc",
+      "vs": "qal",
+      "ps": "unknown",
+      "pdp": "verb",
+      "freq_lex": 47,
+      "gloss": {
+        "type": "word",
+        "_gloss": "take captive"
+      },
+      "qere_utf8": "",
+      "kq_hybrid_utf8": "",
+      "prs_gn": "NA",
+      "prs_nu": "NA",
+      "prs_ps": "NA",
+      "reference": "OT OBA 1:11",
+      "lex_id": 1438314,
+      "phrasalGlosses": []
+    },
+```
+You can see that the field `vt` (=verb tense) has `infc` (=infinitive construct). This is unformatted data.
+
+The XML file, on the other hand, contains data that is specific to a particular publication configuration.
+
+```
+<w xml:id="id298325">שְׁבֹ֥ות</w>
+<note type="gloss" n="b">
+    <gloss type="parsing">G65</gloss>
+    <gloss type="lexical-form">שׁבה</gloss>
+    <gloss type="gloss">take captive</gloss>
+</note>
+```
+
+The formatted parsing “G65” indicates a qal infinitive construct. The note marker “b” (from `n="b"`) comes from a publication configuration. A different project might format that parsing in a completely different way.
+
+## Making TeX and HTML files
 Then XSLT transformations are used to create `.tex` and `.html` files from the `.xml` file.
 
 - `bhsa_OT_JON.html` is created by [tei2html.xsl](https://github.com/openreadersbibles/orb-server/blob/main/src/xslt/tei2html.xsl).
@@ -27,7 +75,7 @@ Then a GitHub Action converts the `.tex` file into a PDF.
 
 If you are investigating a problem in the build, you could also switch to the `gh-pages` branch of the repository, and examine the `bhsa_OT_JON.log` file.
 
-## Using the TypeScript
+## Using TypeScript
 Even if you just want the data, it may be helpful to have the types that the project uses. The relevant repositories for managing the publication process are [orb-server](https://github.com/openreadersbibles/orb-server) and [models](https://github.com/openreadersbibles/models). If you want to do TypeScript development, you probably want the data in those files.
 
 The relative paths in the files assume that `models` and `orb-server` are at the same level. E.g.,
