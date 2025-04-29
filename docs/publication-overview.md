@@ -5,6 +5,9 @@ To publish your books, from the main menu go to “Projects” and then click th
 ## 1. Confirm the publication settings
 This screen merely shows you your project's publication settings so that you can check if they look right. If you need to change something, you'll need to follow the link to the project settings.
 
+When you're first getting started, it's very likely that 
+
+
 | Setting   | Description  |
 |-------------------------|-------------|
 | Project Language Font   | Charis SIL  |
@@ -23,18 +26,15 @@ This screen merely shows you your project's publication settings so that you can
 
 Again, if something doesn't look right, fix it in the project's settings.
 
-## 2. Select parsing formats
-Choose a parsing format for each canon.
-
-## 3. Choose books
+## 2. Choose books
 Select the books you want to publish.
 
-## 4. Check books
+## 3. Check books
 The books you've selected will be checked for missing glosses and things like that.
 
 After a moment, you will either see something like “Success: Genesis” or a description of the error.
 
-## 5. Publish
+## 4. Publish
 Click “Publish” to create the PDFs.
 
 This will take a few minutes. (If you selected a lot of books, it might take some time.)

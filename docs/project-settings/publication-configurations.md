@@ -58,10 +58,13 @@ Another strategy is to use doubled letters after you've gone through all of the 
 If you're a LaTeX user, you can use this to customize the `.tex` file that is used to build your PDFs. This allows you to customize your PDFs without going full [DIY](../DIY.md). You probably want to consult that guide, however, and the project's repository, to figure out the best way to modify this file.
 
 ## CSS template (advanced)
-You can change the CSS template that is used for the webpage version (HTML version) of the book. These placeholders will be replaced with the fonts specified in the project settings:
+You can change the CSS template that is used for the webpage version (HTML version) of the book. Specifically, the CSS on the website will be [this file](https://github.com/openreadersbibles/publication-files/blob/main/style.css) plus whatever you put in your CSS template. (What comes later in the CSS file has priority, so your changes will override whatever else in in that file.)
+
+These placeholders will be replaced with the fonts specified in the project settings:
 
 - `__BIBLICAL_FONT__` E.g., `SBL BibLit`
 - `__PROJECT_FONT__` E.g., `Charis SIL`
+
 
 ## Add a new publication configuration
 At first you just have the “default” publication configuration. One project can have multiple publication configurations, however. 

@@ -18,7 +18,9 @@ Different files are created for each book. The filenames have formats like `bhsa
 1. `bhsa_OT_JON.json` contains raw(-ish) JSON data. (See “Using the TypeScript” below for help in using this.)
 2. `bhsa_OT_JON.xml` is an XML representation of the book in [TEI format](https://tei-c.org/).
 
-These files differ in their contents. The JSON file is more or less raw data from the database. There are columns that represent parsing data, for instance. The XML file, on the other hand, doesn't have all of the raw data but includes parsing information that is created by a particular [publication configuration](project-settings/publication-configurations.md). 
+`bhsa_OT_JON.json` is placed in the root directory of the publication repository. `bhsa_OT_JON.xml`, however, will be in a subfolder specific to the [publication configuration](project-settings/publication-configurations.md). (The location for the default publication configuration is `default/bhsa_OT_JON.xml`.)
+
+These files differ in their contents. The JSON file is more or less raw data from the database. There are columns that represent parsing data, for instance. The XML file, on the other hand, doesn't have all of the raw data but includes parsing information that is created by a particular publication configuration. 
 
 Here is the JSON content of a certain word in Obadiah 1:11:
 

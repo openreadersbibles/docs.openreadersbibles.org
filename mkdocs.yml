@@ -18,7 +18,8 @@ nav:
     - Publication Configurations: project-settings/publication-configurations.md
     - Project Members: project-settings/project-members.md
   - Publication:
-    - Publication Overview: publication-overview.md
+    - Preparing to Publish: preparing-to-publish.md
+    - Publishing: publication-overview.md
     - Fonts: fonts.md
   - Advanced:
     - Power Users: project-settings/power-users.md
