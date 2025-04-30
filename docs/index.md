@@ -1,11 +1,14 @@
 # Open Reader's Bibles
 
-A reader’s Bible is a Bible that has the original language text of the Bible, along with glosses, parsings, and footnotes that help people to understand the text. The goal is to help someone who understands the original languages to be able to read the Bible without constantly having to refer to a dictionary or a parsing chart. They are very helpful for people who have studied the languages for a year or so, and need a bridge to be able to read the Bible fluently in the original languages.
+A reader’s Bible is a Bible that has the original language text of the Bible, along with glosses, parsings, and footnotes that help people to understand the text. Here are examples that were created with this website:
 
-Reader’s Bibles are generally published by for-profit companies. They need to cover the expense of producing the book. This has two consequences. First, the books are rather expensive (like a textbook). Second, reader’s Bibles are generally only available in languages that have a lot of customers.
+* [Old Testament with English glosses](https://openreadersbibles.github.io/pub-bhsa/default/index.html)
+* [New Testament with English glosses](https://openreadersbibles.github.io/pub-sblgnt-biblebento/default/index.html)
 
-## You can make your own reader's Bible!
-This is a website that will help you to produce your own reader’s Bible. It is a lot of work, but we’ve worked hard to make it as simple as possible. Then you can produce high quality PDFs or web pages from your hard work—and you can give them away for free.
+The goal is to help someone who understands the original languages to be able to read the Bible without constantly having to refer to a dictionary or a parsing chart. They are very helpful for people who have studied the languages for a year or so, and need a bridge to be able to read the Bible fluently in the original languages.
+
+## You can make a reader's Bible for your language!
+This is a website that will help you to produce your own reader’s Bibles. We’ve worked hard to make it as simple as possible. You will get high quality PDFs or web pages, as you can see in the samples above.
 
 How much work is this? This is what you will provide:
 
@@ -19,6 +22,11 @@ Here is what we can provide:
 * We will generate a nice PDF, which you can distribute.
 
 The hope here is that people from all over the world will be able to benefit from these wonderful resources.
+
+## The Bible is for everyone
+
+Reader’s Bibles are generally published by for-profit companies. They need to cover the expense of producing the book. This has two consequences. First, the books are rather expensive (like a textbook). Second, reader’s Bibles are generally only available in languages that have a lot of customers.
+
 
 ## A personal invitation and challenge
 Learning Greek and Hebrew is a lot of work! In the English-speaking world, we are blessed with many valuable resources. Many people around the world can only learn Greek or Hebrew if they learn a second academic language first—perhaps English, German, Spanish, or French. If that describes you: well done! Those of us who learned in our native language from the beginning are in awe of your hard work and dedication. 
