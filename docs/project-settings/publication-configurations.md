@@ -64,10 +64,11 @@ These placeholders will be replaced with the fonts specified in the project sett
 
 - `__BIBLICAL_FONT__` E.g., `SBL BibLit`
 - `__PROJECT_FONT__` E.g., `Charis SIL`
-
+- `__LAYOUT_DIRECTION__` E.g., `rtl` or `ltr` (this is the layout direction of the project language, e.g., Russian or Swahili)
 
 ## Add a new publication configuration
 At first you just have the “default” publication configuration. One project can have multiple publication configurations, however. 
+
 - You could have an edition with short parsing formats (e.g., G20) for advanced readers, and a different one with long parsing formats (e.g., qal imperfect third masculine singular) for beginning readers.
 - You could have editions for A4 paper and Letter paper.
 - ...or any other of the settings people might disagree about!
