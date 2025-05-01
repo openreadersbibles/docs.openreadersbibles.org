@@ -55,11 +55,9 @@ If we run out of footnote markers, we start back at the beginning. So if you onl
 Another strategy is to use doubled letters after you've gone through all of the alphabet: “a,b,c,d,e...,x,y,z,aa,bb,cc,dd,ee...”.
 
 ## Custom Frequency Thresholds (advanced)
-One way you can customize a publication is by changing the frequency thresholds.
+One way you can customize a publication is by changing the frequency thresholds. You can use lower thresholds (i.e., providing less information to the reader) to produce editions for more advanced readers.
 
 The caution of course is that if these thresholds are higher than what you have set for your project, then there will just be blanks rather than glosses, because you haven't entered the glosses for them.
-
-But you can use lower thresholds (i.e., providing less information to the reader) to produce editions for more advanced readers.
 
 ## LaTeX template (advanced)
 If you're a LaTeX user, you can use this to customize the `.tex` file that is used to build your PDFs. This allows you to customize your PDFs without going full [DIY](../DIY.md). You probably want to consult that guide, however, and the project's repository, to figure out the best way to modify this file.
