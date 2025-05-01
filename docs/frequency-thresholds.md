@@ -1,9 +1,9 @@
 # Frequency Thresholds
 *tl;dr: For the New Testament, it is recommended to gloss words that occur fewer than 30 times. For the Old Testament, it is recommended to gloss words that occur fewer than 50 times.*
 
-A preliminary: In this section, when we talk about a “word” we are talking about the word you would find in the dictionary. For instance λόγος is one Greek word—even though it has different forms for nominative, accusative, and so forth. (And even though λόγος occurs 330 times in the New Testament, it still just counts as one word.)
+A preliminary: when we talk about a “word” we are talking about the word you would find in the dictionary. For instance λόγος is one Greek word—even though it has different forms for nominative, accusative, and so forth. (And even though λόγος occurs 330 times in the New Testament, it still just counts as one word.)
 
-There are 5,461 words in the New Testament. The way language works is, some words occur very frequently (like the in English), but then most words occur far less frequently. In the New Testament, out of 5,461 words, 1,966 of them only occur once!
+There are 5,461 words in the New Testament. The way language works is, some words occur very frequently (like “the” in English), but then most words occur far less frequently. In the New Testament, out of 5,461 words, 1,966 of them only occur once!
 
 When you’re preparing a reader’s Bible, you have to decide which words to gloss. For instance, for the New Testament, it typical for a publisher to say, “Words that occur less than 30 times are glossed.” The lower the threshold, the more words you will have to gloss; and the fewer words your reader will need to know.
 
