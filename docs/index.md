@@ -2,6 +2,7 @@
 
 A reader’s Bible is a Bible that has the original language text of the Bible, along with glosses, parsings, and footnotes that help people to understand the text. Here are examples that were created with this website:
 
+* [Jonah, Mark, John, and Johannine epistles with Farsi glosses](https://openreadersbibles.github.io/pub-farsi/default/index.html)
 * [Old Testament with English glosses](https://openreadersbibles.github.io/pub-bhsa/default/index.html)
 * [New Testament with English glosses](https://openreadersbibles.github.io/pub-sblgnt-biblebento/default/index.html)
 

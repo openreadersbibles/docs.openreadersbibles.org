@@ -11,6 +11,7 @@ nav:
     - Glosses & Votes: glosses-votes.md
     - Adding Glosses: gloss-types.md
     - Markdown: markdown.md
+    - Tips: tips.md
   - Project Settings:
     - General Settings: project-settings/general-settings.md
     - Canons: project-settings/canons.md
