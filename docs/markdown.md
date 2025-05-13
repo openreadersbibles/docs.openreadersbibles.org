@@ -25,11 +25,11 @@ To be safe, you can specify that the text is Greek or Hebrew.
 Genesis starts with the words [[hebrew|בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים]] and John starts with the words [[greek|Ἐν ἀρχῇ ἦν ὁ λόγος]]
 ```
 
-If you want to be safe, always specify Greek or Hebrew.
+If you want to be safe, always specify Greek or Hebrew. Even if it's Aramaic text, just use `hebrew`.
 
-Technically, it really only matters if these two things are both true:
+!!! note "Under the hood"
+    Technically, you only need to specify `greek` or `hebrew` if these two things are both true:
 
-1. The phrase you're quoting has more than one word.
-2. The biblical language has a different text direction from your language. (For instance, English has the same text direction as Greek but a different text direction from Hebrew.)
+    1. The phrase you're quoting has more than one word.
+    2. The biblical language has a different text direction from your language. (For instance, English has the same text direction as Greek but a different text direction from Hebrew.)
 
-Even if it's Aramaic text, just use `hebrew`.
