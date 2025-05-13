@@ -2,6 +2,7 @@
 The workspace is where you will do most of your work. You can look at different verses and add glosses to words.
 
 How do you navigate around the workspace?
+
 - Make sure you're looking at the correct project
 - Make sure that you're looking at the correct canon
 - Then you select the verse you want to work on

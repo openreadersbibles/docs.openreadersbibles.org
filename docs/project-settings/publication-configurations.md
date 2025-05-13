@@ -42,6 +42,7 @@ In right-to-left languages, this is going to be awkward. Here is how I would do 
 This section is about what your footnote markers look like, i.e., the thing that comes after a word and tells you there is a footnote^a to look at.
 
 The reader's bibles we have seen seem to take two approaches to footnotes:
+
 - Footnotes are indicated by letters (a, b, c, ...). The letters restart at the beginning of each verse.
 - Footnotes are numbered. The numbering restarts on the page.
 
