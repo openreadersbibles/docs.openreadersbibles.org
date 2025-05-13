@@ -23,3 +23,16 @@ If there are multiple people in your project, you can vote among yourselves to c
 For some languages, perhaps lots of different people will work on a project. The website allows that kind of collaboration through the voting system.
 
 Whichever gloss has the higher number of votes is the gloss that will be used in the publication.
+
+## Advanced: Editing and deleting glosses
+It is possible to edit and delete glosses. When you edit a gloss, it changes the gloss *everywhere* in the project. For example, if you change the gloss for אֱלֹהִים in Genesis 1:1, it will also be changed in Malachi 3:18. If you delete the gloss for אֱלֹהִים in Genesis 1:1, it will be deleted *everywhere* in the project. You can delete it and then add it back again — but you will have to go to every other occurence and vote for it. This can be a dangerous thing to do, so you need to do an extra step to enable it (see the box below).
+
+You must be a project admin to make a user a power user. Even if you are the admin you have to specifically make yourself a power users.
+
+!!! tip "How to make yourself a power user"    
+    1. Go to your project's “Settings” 
+    2. Go to the “Project Members” tab.
+    3. Use the toggle to amke yourself a “power user” 
+    4. Click the “Save Changes” button.
+    
+    Back in the worksapce, you will get a little edit icon next to each gloss.

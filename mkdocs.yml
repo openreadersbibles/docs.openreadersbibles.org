@@ -31,3 +31,6 @@ nav:
     - Credits: credits.md
     - Security: security.md
 theme: readthedocs
+markdown_extensions:
+  - smarty
+  - admonition
