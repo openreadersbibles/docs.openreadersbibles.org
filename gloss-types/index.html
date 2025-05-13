@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Adding Glosses - Open Reader's Bibles</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Adding Glosses";
+        var mkdocs_page_input_path = "gloss-types.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Open Reader's Bibles
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Reader's Bibles</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../good-glosses/">Good glosses</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../frequency-thresholds/">Deciding on frequency thresholds</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../readersbibles/">Reader’s Bibles and Interlinear Bibles</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../glossary/">Glossary of Terms</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">User's Guide</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../workspace/">The Workspace</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../glosses-votes/">Glosses & Votes</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Adding Glosses</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#adding-a-gloss">Adding a gloss</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#voting-for-glosses">Voting for glosses</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types-of-glosses">Types of Glosses</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#simple-gloss">Simple Gloss</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#simple-gloss-note">Simple Gloss &amp; Note</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#freeform-gloss">Freeform Gloss</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#empty-gloss">Empty Gloss</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#phrase-glosses">Phrase Glosses</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../markdown/">Markdown</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tips/">Tips</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Project Settings</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-settings/general-settings/">General Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-settings/canons/">Canons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-settings/parsing-formats/">Parsing Formats</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-settings/publication-configurations/">Publication Configurations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-settings/project-members/">Project Members</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Publication</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../preparing-to-publish/">Preparing to Publish</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../publication-overview/">Publishing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fonts/">Fonts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Advanced</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-settings/power-users/">Power Users</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../DIY/">Do-It-Yourself Publication</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../about/">About the project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../license/">License</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../credits/">Credits</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../security/">Security</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Open Reader's Bibles</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">User's Guide</li>
+      <li class="breadcrumb-item active">Adding Glosses</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="glosses">Glosses</h1>
+<p>Most of your work will be defining words for the glosses. When you look at a verse, you see something like this:</p>
+<p><img alt="" src="../images/add-gloss.png" /></p>
+<p>The words that have boxes around them need glosses. The other words do not need glosses. (They are above the frequency threshold for the project, so there is no need to define them.) To add a gloss, you can click on the two marked buttons:</p>
+<ol>
+<li>Click this button to open a menu showing you all of the possible types of glosses. (See below.)</li>
+<li>Click this button to create a simple gloss — a gloss that just gives a definition.</li>
+</ol>
+<p>(Depending whether your language is right-to-left or left-to-right, the order of these buttons will be different.)</p>
+<p>Suppose you click on the “+” button. Then a dialog like this opens up. This is shown in the next step.</p>
+<h2 id="adding-a-gloss">Adding a gloss</h2>
+<p><img alt="" src="../images/new-gloss-dialog.png" /></p>
+<ol>
+<li>“Gloss” — Here is where you type the gloss.</li>
+<li>“Add Gloss”  — Click this button to add the gloss.</li>
+<li>“Dismiss” — Click this button to get out the dialog box (and lose your work).</li>
+</ol>
+<p>Suppose you&rsquo;ve entered that text, and you click on the “Add Gloss” button.</p>
+<h2 id="voting-for-glosses">Voting for glosses</h2>
+<p>Tip: See <a href="../glosses-votes/">Glosses &amp; Votes</a> to learn about how glosses and votes work.</p>
+<p>Once you add a gloss for a word, that gloss is automatically suggested in other places where that work occurs. The picture below shows the screen after we added the gloss, as in the previous section.</p>
+<p><img alt="" src="../images/gloss-votes.png" /></p>
+<ol>
+<li>We clicked the button to add the gloss to this word. Now the gloss has been added. Notice: 1) The gloss is shown in green, because that is the one we chose. 2) The number “1” shows that this gloss has one vote so far.</li>
+<li>We haven&rsquo;t done anything this word. But because “ἀλλοτρίῳ” and “ἀλλοτρίων” come from the same word (ἀλλότριος), the gloss is now available for you to vote. Just click on it to vote for it.</li>
+</ol>
+<p>After we click on number 2 above, both words have votes:</p>
+<p><img alt="" src="../images/both-voted.png" /></p>
+<ol>
+<li>This word now has a gloss and a vote.</li>
+</ol>
+<h2 id="types-of-glosses">Types of Glosses</h2>
+<p>There are four types of glosses. Mostly you will use simple glosses (the “+” button). If you are new to this, you don&rsquo;t need to worry about the others.</p>
+<h3 id="simple-gloss">Simple Gloss</h3>
+<p>A simple gloss is just the definition of a word. This is usually what you want. (In the PDF version, it will probably also show the parsing, but you don&rsquo;t need to worry about that.)</p>
+<p>Remember that the system will automatically show the parsing, so you just need to enter the meaning of the word.</p>
+<p>As an example, in <a href="https://openreadersbibles.github.io/pub-sblgnt-biblebento/default/sblgnt-biblebento_NT_MAT-1.html">the English version of Matthew 1:1</a>, the note for the word “Βίβλος” looks like this:</p>
+<blockquote>
+<p>NNFS βίβλος <em>book</em></p>
+</blockquote>
+<p>A user would just have to enter “book” here: the system will put in the parsing and the lexical form of the word.</p>
+<h3 id="simple-gloss-note">Simple Gloss &amp; Note</h3>
+<p>If you want to add an explanation <em>along with</em> your gloss, you may make a “Gloss &amp; Note.” For instance, maybe you want to say, “The meaning of this word is uncertain.” </p>
+<p>Staying with the previous example of <a href="https://openreadersbibles.github.io/pub-sblgnt-biblebento/default/sblgnt-biblebento_NT_MAT-1.html">Matthew 1:1</a>, if you added a “Simple Gloss &amp; Note” it would look like this:</p>
+<blockquote>
+<p>NNFS βίβλος <em>book</em>. Probably it was a scroll rather than a codex.</p>
+</blockquote>
+<p>In this case, the user has written out “book” for the gloss, and “Probably it was a scroll rather than a codex.” for the note.</p>
+<p>Here it what the screen looks like:</p>
+<p><img alt="" src="../images/gloss-with-markdown.png" /></p>
+<ol>
+<li>“Gloss” — This is the gloss, just like a simple gloss.</li>
+<li>“Markdown” — Here is where you put your note. The note can include some markdown, which is described here <a href="../markdown/">here</a>.</li>
+<li>This shows what your note will look like.</li>
+</ol>
+<h3 id="freeform-gloss">Freeform Gloss</h3>
+<p>This is like a “Gloss &amp; Note” but without the gloss. If for some reason you don&rsquo;t want to give a gloss, you can use this option.</p>
+<h3 id="empty-gloss">Empty Gloss</h3>
+<p>If you add an empty gloss, no footnote will be given for the word at all: no parsing, no lexical form, no gloss.</p>
+<p>Usually this will not be the correct thing to do. You may wish to create an empty gloss if you are explaining the a phrase with a phrase gloss.</p>
+<p>Why would you add an empty gloss? If you leave a word without a gloss, the website will give you a warning because it will think you have forgotten to gloss the word. If you tell it you want an empty gloss, it knows you made the decision on purpose and will not give the warning.</p>
+<h2 id="phrase-glosses">Phrase Glosses</h2>
+<p>Sometimes it is helpful to add a gloss for a group of words. For instance, the combination of several words can have a meaning that is not predictable from the individual words. To add a phrase gloss, click the “Add a phrase gloss&hellip;” button at the bottom of the verse. Here is what you will see:</p>
+<p><img alt="" src="../images/phrase-gloss.png" /></p>
+<ol>
+<li>Click on the words to select your phrase. (All the words have to be in a row.) Click a word to select it or deselect it. If you get lost&hellip;</li>
+<li>“Clear selection” — This will clear your selected words.</li>
+<li>“Enter plain text or markdown” — Here you enter in your note. <a href="../markdown/">Markdown</a> is supported.</li>
+<li>“Add Gloss” — Click here to add the phrase gloss.</li>
+</ol>
+<p>After the phrase gloss is added, it is displayed under the verse.</p>
+<p><img alt="" src="../images/phrase-gloss-added.png" /></p>
+<ol>
+<li>This shows the source text phrase.</li>
+<li>This shows the gloss. (If there is more than one gloss, you can vote, just as with a regular gloss.)</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../glosses-votes/" class="btn btn-neutral float-left" title="Glosses & Votes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../markdown/" class="btn btn-neutral float-right" title="Markdown">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../glosses-votes/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../markdown/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
