@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Publication Configurations - Open Reader's Bibles</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Publication Configurations";
+        var mkdocs_page_input_path = "project-settings/publication-configurations.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Open Reader's Bibles
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Reader's Bibles</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../good-glosses/">Good glosses</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../frequency-thresholds/">Deciding on frequency thresholds</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../readersbibles/">Reader’s Bibles and Interlinear Bibles</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../glossary/">Glossary of Terms</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">User's Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../workspace/">The Workspace</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../glosses-votes/">Glosses & Votes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../gloss-types/">Adding Glosses</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../markdown/">Markdown</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tips/">Tips</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Project Settings</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../general-settings/">General Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../canons/">Canons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../parsing-formats/">Parsing Formats</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Publication Configurations</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#publication-configurations">Publication Configurations</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#select-the-parsing-formats-to-use-when-publishing">Select the parsing formats to use when publishing</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fontlanguage-settings">Font/language settings</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#select-the-typography-language">Select the typography language</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#select-the-font-for-your-language">Select the font for your language</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#use-sbl-biblit-for-the-biblical-text">Use SBL BibLit for the biblical text</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chapter-headers">Chapter Headers</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#footnotes">Footnotes</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#if-youre-doing-letters-how-many-footnote-markers-do-you-need">If you&rsquo;re doing letters, how many footnote markers do you need?</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#custom-frequency-thresholds-advanced">Custom Frequency Thresholds (advanced)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#latex-template-advanced">LaTeX template (advanced)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#css-template-advanced">CSS template (advanced)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#add-a-new-publication-configuration">Add a new publication configuration</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-members/">Project Members</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Publication</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../preparing-to-publish/">Preparing to Publish</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../publication-overview/">Publishing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../fonts/">Fonts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Advanced</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../power-users/">Power Users</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../DIY/">Do-It-Yourself Publication</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/">About the project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../credits/">Credits</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../security/">Security</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Open Reader's Bibles</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Project Settings</li>
+      <li class="breadcrumb-item active">Publication Configurations</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="project-settings">Project Settings</h1>
+<h2 id="publication-configurations">Publication Configurations</h2>
+<p>These are settings for how your book will look when it is published. </p>
+<p>If you want to publish books in several different formats, see “Add a new publication configuration” below.</p>
+<h2 id="select-the-parsing-formats-to-use-when-publishing">Select the parsing formats to use when publishing</h2>
+<p>For each canon, you need to select the parsing format you want to use. If you haven&rsquo;t created a parsing format for a particular canon, you need to do that first in the <a href="../parsing-formats/">Parsing Formats</a> section.</p>
+<h2 id="fontlanguage-settings">Font/language settings</h2>
+<p>These are settings that make sure the book is typeset appropriately for your language.</p>
+<h2 id="select-the-typography-language">Select the typography language</h2>
+<p>If your language is in the list, then just choose it.</p>
+<p>If your language is not in the list, then select the language whose documents look most like your language. For instance, if you write your language with the Cyrillic script, you might select “russian”. (You definitely want the script to match. You might be able to get closer; for instance both “russian” and “bulgarian” are options.)</p>
+<p>Technical detail you don&rsquo;t need to worry about: this is the language used by the <a href="https://ctan.org/pkg/polyglossia?lang=en">polyglossia</a> LaTeX package.</p>
+<h2 id="select-the-font-for-your-language">Select the font for your language</h2>
+<p>Choose the font that you want to use for your language. These are fonts that are available with open licenses. You can go to the <a href="https://fonts.google.com/">Google Fonts</a> to see samples. See <a href="../../fonts/">Fonts</a> for a little more detail.</p>
+<p>Using Google Fonts lets us automate the documentation creation project, and avoids concerns about copyright. If for some reason you need a font that is not part of Google Fonts, you can make it work, but it will be harder. See the <a href="../../DIY/">do-it-yourself</a> guide.</p>
+<h2 id="use-sbl-biblit-for-the-biblical-text">Use SBL BibLit for the biblical text</h2>
+<p>Using the SBL BibLit font is a really good idea. It is an attractive typeface and free. But if you want to use a different one, you can untick this box and select a Google Font instead.</p>
+<h2 id="chapter-headers">Chapter Headers</h2>
+<p>This is a template so that you can create your language&rsquo;s equivalent of “Chapter 15”. In this template “__CHAPTER__” will be replaced by the chapter number.</p>
+<p>In right-to-left languages, this is going to be awkward. Here is how I would do it:</p>
+<ol>
+<li>Copy the text “__CHAPTER__” to the clipboard (without the quotes).</li>
+<li>Remove all the text from the text box.</li>
+<li>Type in your “chapter” equivalent.</li>
+<li>Place your cursor where you want the chapter number to go (remember to include a space, if needed).</li>
+<li>Paste the text from the clipboard.</li>
+<li>Check in the “Example” below that it looks right. </li>
+</ol>
+<h2 id="footnotes">Footnotes</h2>
+<p>This section is about what your footnote markers look like, i.e., the thing that comes after a word and tells you there is a footnote^a to look at.</p>
+<p>The reader&rsquo;s bibles we have seen seem to take two approaches to footnotes:</p>
+<ul>
+<li>Footnotes are indicated by letters (a, b, c, &hellip;). The letters restart at the beginning of each verse.</li>
+<li>Footnotes are numbered. The numbering restarts on the page.</li>
+</ul>
+<p>(The advantage of using letters is that the footnote markers look very different from verse numbers.)</p>
+<h3 id="if-youre-doing-letters-how-many-footnote-markers-do-you-need">If you&rsquo;re doing letters, how many footnote markers do you need?</h3>
+<p>This will depend on the frequency threshold. The lower your threshold, the more words in a verse will need a gloss. As an example, if your frequency threshold for the Old Testament was 50, then you would need 31 different footnote markers. (That is for Daniel 3:15 — a very long verse that&rsquo;s in Aramaic.) If your frequency threshold was 100, then you would still need just 31 different footnote markers.</p>
+<p>If we run out of footnote markers, we start back at the beginning. So if you only specify “a,b,c,d,e” then the order of footnotes would be: “a,b,c,d,e,a,b,c,d,e,a,b,c,d,e,&hellip;”. (That may not be bad; maybe your readers would able to figure it out.)</p>
+<p>Another strategy is to use doubled letters after you&rsquo;ve gone through all of the alphabet: “a,b,c,d,e&hellip;,x,y,z,aa,bb,cc,dd,ee&hellip;”.</p>
+<h2 id="custom-frequency-thresholds-advanced">Custom Frequency Thresholds (advanced)</h2>
+<p>One way you can customize a publication is by changing the frequency thresholds. You can use lower thresholds (i.e., providing less information to the reader) to produce editions for more advanced readers.</p>
+<p>The caution of course is that if these thresholds are higher than what you have set for your project, then there will just be blanks rather than glosses, because you haven&rsquo;t entered the glosses for them.</p>
+<h2 id="latex-template-advanced">LaTeX template (advanced)</h2>
+<p>If you&rsquo;re a LaTeX user, you can use this to customize the <code>.tex</code> file that is used to build your PDFs. This allows you to customize your PDFs without going full <a href="../../DIY/">DIY</a>. You probably want to consult that guide, however, and the project&rsquo;s repository, to figure out the best way to modify this file.</p>
+<h2 id="css-template-advanced">CSS template (advanced)</h2>
+<p>You can change the CSS template that is used for the webpage version (HTML version) of the book. Specifically, the CSS on the website will be <a href="https://github.com/openreadersbibles/publication-files/blob/main/style.css">this file</a> plus whatever you put in your CSS template. (What comes later in the CSS file has priority, so your changes will override whatever else in in that file.)</p>
+<p>These placeholders will be replaced with the fonts specified in the project settings:</p>
+<ul>
+<li><code>__BIBLICAL_FONT__</code> E.g., <code>SBL BibLit</code></li>
+<li><code>__PROJECT_FONT__</code> E.g., <code>Charis SIL</code></li>
+<li><code>__LAYOUT_DIRECTION__</code> E.g., <code>rtl</code> or <code>ltr</code> (this is the layout direction of the project language, e.g., Russian or Swahili)</li>
+</ul>
+<h2 id="add-a-new-publication-configuration">Add a new publication configuration</h2>
+<p>At first you just have the “default” publication configuration. One project can have multiple publication configurations, however. </p>
+<ul>
+<li>You could have an edition with short parsing formats (e.g., G20) for advanced readers, and a different one with long parsing formats (e.g., qal imperfect third masculine singular) for beginning readers.</li>
+<li>You could have editions for A4 paper and Letter paper.</li>
+<li>&hellip;or any other of the settings people might disagree about!</li>
+</ul>
+<p>You can click “Add a new publication configuration” to create as many as you wish. It&rsquo;s good idea to have a computer-friendly name for the name of the configuration (e.g, “a4paper-long-format”).</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../parsing-formats/" class="btn btn-neutral float-left" title="Parsing Formats"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../project-members/" class="btn btn-neutral float-right" title="Project Members">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../parsing-formats/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../project-members/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
