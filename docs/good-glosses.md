@@ -24,6 +24,15 @@ You can decide how much you want to help your readers. The Hebrew word נכה ha
 
 These are decisions that each individual has to make.
 
+## Verbs
+For verbs, things are more complicated.
+
+In Greek, you might want to provide different glosses for active and passive forms of the same verb. For instance, you could gloss βάλλω as “to throw” when the verb is active, or “to be thrown” when the verb is passive.
+
+In Hebrew, you might want to provide different glosses for verbs in different verbal stems (binyamim). For instance, you could gloss לקח as “to take” in the qal active, but “to be taken” in the qal passive. You could gloss מות as “to die” in the qal, but “to kill” in the hiphil.
+
+(You can configure your project to only suggest glosses that match the voice/binyan. See [General Settings](project-settings/general-settings.md).)
+
 ## Tips
 
 * Keep the glosses grammatical neutral. Example: Even though you see τεκνία (which is plural) in the text, make the gloss singular (e.g., “child”). The reader will see from the rest of the footnote that it's a plural word.

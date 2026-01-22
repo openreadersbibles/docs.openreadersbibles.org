@@ -3,7 +3,7 @@ Your goal is to find the best gloss for each word. One word may have several pos
 
 Each user can cast a vote for the gloss he or she thinks is best. Whichever gloss has the most votes is the gloss that will be used.
 
-(A gloss is usually just the definition of a word. For alternatives to this, see [Adding Glosses](gloss-types.md).)
+(A gloss is usually just the definition of a word. For alternatives to this, see [Glosses](gloss-types.md).)
 
 When you add a gloss to a word, that gloss will automatically be suggested for other instances of that word.
 
