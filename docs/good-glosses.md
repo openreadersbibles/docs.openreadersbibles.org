@@ -20,9 +20,9 @@ In 1 John 4:2 the idea is making a statement about one's own faith:
 
 This will be different for different languages. So, it would be a bad idea just to translate the English glosses. It would be better to look at a translation of the Bible in your language.
 
-You can decide how much you want to help your readers. The Hebrew word נכה has many possible translations—“strike” or “kill” and maybe others. Do you want to help the reader see each individual translation, or do you want to force the reader to think about how one Hebrew word can have several different meanings?
+You can decide how much you want to help your readers. The Hebrew word נכה has many possible translations—“strike” or “kill” and maybe others. Do you want to help the reader see each individual translation, or do you want to force the reader to think about how one Hebrew word can have several different meanings? These are decisions that each individual has to make.
 
-These are decisions that each individual has to make.
+Another choice you could make would be to include a number of words in a gloss. For instance, instead of glossing βίβλος in different places as “book” or “scroll” or “document,” you could just have one gloss “book; scroll; document.” Then your readers will have to think for themselves each time which word makes the most sense.
 
 ## Verbs
 For verbs, things are more complicated.
