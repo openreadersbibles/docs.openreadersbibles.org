@@ -60,6 +60,9 @@ One way you can customize a publication is by changing the frequency thresholds.
 
 The caution of course is that if these thresholds are higher than what you have set for your project, then there will just be blanks rather than glosses, because you haven't entered the glosses for them.
 
+## Customize what kind of footnotes are used
+There are default settings that determine what kind of footnote is produced for each word. If you wish to customize this, you can write custom JavaScript code to do that. This is appropriate for people who have a programming background. [Here are instructions.](custom-footnote-functions.md)
+
 ## LaTeX template (advanced)
 If you're a LaTeX user, you can use this to customize the `.tex` file that is used to build your PDFs. This allows you to customize your PDFs without going full [DIY](../DIY.md). You probably want to consult that guide, however, and the project's repository, to figure out the best way to modify this file.
 

@@ -11,7 +11,7 @@ Under the “Projects” page, you can find the “Settings” button under each
 - “Allow anyone to join” If this box is checked, anyone on the internet can join your project. (You can always remove them later.) Check this box if you want to encourage crowd-sourcing and collaboration.
 
 ## Gloss Suggestion Mode
-It will be helpful to the reader to provide different glosses for different voices or verb stems (binyanim). See [Good glosses](good-glosses.md) under “Verbs” for further explanation of that.
+It will be helpful to the reader to provide different glosses for different voices or verb stems (binyanim). See [Good glosses](../good-glosses.md) under “Verbs” for further explanation of that.
 
 The gloss suggestion mode determines what suggested glosses you see.
 

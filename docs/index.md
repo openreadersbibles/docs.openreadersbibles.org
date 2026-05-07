@@ -28,6 +28,8 @@ The hope here is that people from all over the world will be able to benefit fro
 
 Reader’s Bibles are generally published by for-profit companies. They need to cover the expense of producing the book. This has two consequences. First, the books are rather expensive (like a textbook). Second, reader’s Bibles are generally only available in languages that have a lot of customers.
 
+If you have the expertise to provide glosses for your language, Open Reader's Bibles takes care of the rest. You get high quality PDFs or webpage versions for Greek and Hebrew learners in your language—for free!
+
 
 ## A personal invitation and challenge
 Learning Greek and Hebrew is a lot of work! In the English-speaking world, we are blessed with many valuable resources. Many people around the world can only learn Greek or Hebrew if they learn a second academic language first—perhaps English, German, Spanish, or French. If that describes you: well done! Those of us who learned in our native language from the beginning are in awe of your hard work and dedication. 

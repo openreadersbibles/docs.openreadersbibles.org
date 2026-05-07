@@ -25,6 +25,7 @@ nav:
   - Advanced:
     - Power Users: project-settings/power-users.md
     - Do-It-Yourself Publication: DIY.md
+    - Customize what kind of footnotes are used: project-settings/custom-footnote-functions.md
   - About:
     - About the project: about.md
     - License: license.md
