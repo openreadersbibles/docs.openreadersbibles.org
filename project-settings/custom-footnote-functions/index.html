@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Customize what kind of footnotes are used - Open Reader's Bibles</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Customize what kind of footnotes are used";
+        var mkdocs_page_input_path = "project-settings/custom-footnote-functions.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Open Reader's Bibles
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Reader's Bibles</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../good-glosses/">Good glosses</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../frequency-thresholds/">Deciding on frequency thresholds</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../readersbibles/">Reader’s Bibles and Interlinear Bibles</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../glossary/">Glossary of Terms</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">User's Guide</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../workspace/">The Workspace</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../glosses-votes/">Glosses & Votes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../gloss-types/">Adding Glosses</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../markdown/">Markdown</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tips/">Tips</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Project Settings</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../general-settings/">General Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../canons/">Canons</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../parsing-formats/">Parsing Formats</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../publication-configurations/">Publication Configurations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-members/">Project Members</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Publication</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../preparing-to-publish/">Preparing to Publish</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../publication-overview/">Publishing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../fonts/">Fonts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Advanced</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../power-users/">Power Users</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../DIY/">Do-It-Yourself Publication</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Customize what kind of footnotes are used</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#hebrew-old-testament">Hebrew Old Testament</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#new-testament">New Testament</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#caveats">Caveats</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#security">Security</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">About</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/">About the project</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../credits/">Credits</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../security/">Security</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Open Reader's Bibles</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Advanced</li>
+      <li class="breadcrumb-item active">Customize what kind of footnotes are used</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="custom-footnote-functions">Custom footnote functions</h1>
+<p>If you wish, you can write custom code to decide what kind of footnote is needed in each case. Your code should return one of these values.</p>
+<ul>
+<li><code>FootnoteType.ParsingGloss</code>: Print the parsing and the gloss.</li>
+<li><code>FootnoteType.Parsing</code>: Print the parsing only.</li>
+<li><code>FootnoteType.Gloss</code>: Print the gloss only.</li>
+<li><code>FootnoteType.None</code>: Print no footnote at all.</li>
+</ul>
+<p>The default code below can be a guide for what the code should look like. For instance, in the NT canon, if a word is above the frequency threshold, the parsing will only be printed if it is not a present indicative.</p>
+<h2 id="hebrew-old-testament">Hebrew Old Testament</h2>
+<pre><code>if (lex_id === 1439638) {
+    return FootnoteType.None;
+}
+if (isVerb) {
+    if (belowFrequencyThreshold) {
+        return FootnoteType.ParsingGloss;
+    } else {
+        return FootnoteType.Parsing;
+    }
+} if (isSubstantive) {
+    if (belowFrequencyThreshold) {
+        return FootnoteType.ParsingGloss;
+    } else {
+        return FootnoteType.None;
+    }
+} else {
+    if (belowFrequencyThreshold || isInteroggative) {
+        return FootnoteType.Gloss;
+    } else {
+        return FootnoteType.None;
+    }
+}
+</code></pre>
+<p>(The first line is a bit of a quirk: the “Yah” in “Halleluyah” is its own word in the BHSA dataset, and occurs 49 times. But I don&rsquo;t think it ought to be glossed.)</p>
+<p>Here are the variables that are available to you for Hebrew Old Testament words:</p>
+<pre><code>isVerb: boolean
+isSubstantive: boolean
+lex_id: number
+isInteroggative: boolean
+belowFrequencyThreshold: boolean
+verbStem: &quot;NA&quot; | &quot;qal&quot; | &quot;piel&quot; | &quot;hif&quot; | &quot;nif&quot; | &quot;pual&quot; | &quot;hit&quot; | &quot;hof&quot; | &quot;hsht&quot; | &quot;pasq&quot; | &quot;hotp&quot; | &quot;nit&quot; | &quot;poal&quot; | &quot;poel&quot; | &quot;htpo&quot; | &quot;peal&quot; | &quot;tif&quot; | &quot;etpa&quot; | &quot;pael&quot; | &quot;haf&quot; | &quot;htpe&quot; | &quot;htpa&quot; | &quot;peil&quot; | &quot;etpe&quot; | &quot;afel&quot; | &quot;shaf&quot;
+</code></pre>
+<h2 id="new-testament">New Testament</h2>
+<p>Here is the default code:</p>
+<pre><code>if (isVerb) {
+    if (belowFrequencyThreshold) {
+        return FootnoteType.ParsingGloss;
+    } else if (!(mood == 'indicative' &amp;&amp; tense == 'present')) {
+        return FootnoteType.Parsing;
+    } else {
+        return FootnoteType.None;
+    }
+} if (isSubstantive) {
+    if (belowFrequencyThreshold) {
+        return FootnoteType.ParsingGloss;
+    } else {
+        return FootnoteType.None;
+    }
+} else {
+    if (belowFrequencyThreshold) {
+        return FootnoteType.Gloss;
+    } else {
+        return FootnoteType.None;
+    }
+}
+</code></pre>
+<p>Here are the variables that are available to you for New Testament words:</p>
+<pre><code>isVerb: boolean
+isSubstantive: boolean
+tense: &quot;NA&quot; | &quot;present&quot; | &quot;imperfect&quot; | &quot;future&quot; | &quot;aorist&quot; | &quot;perfect&quot; | &quot;pluperfect&quot;
+voice: &quot;NA&quot; | &quot;active&quot; | &quot;middle&quot; | &quot;passive&quot;
+mood: &quot;NA&quot; | &quot;indicative&quot; | &quot;imperative&quot; | &quot;subjunctive&quot; | &quot;optative&quot; | &quot;infinitive&quot; | &quot;participle&quot;
+belowFrequencyThreshold: boolean
+</code></pre>
+<h2 id="caveats">Caveats</h2>
+<p>This should be considered an experimental feature. In particular, if your code contains a bug, you&rsquo;re not going to get an error message about it. It&rsquo;ll just fail.</p>
+<h2 id="security">Security</h2>
+<p>Potential malefactors take note: the JavaScript that is entered into these boxes is only ever run in an isolated environment, and with a 100 ms timeout.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../DIY/" class="btn btn-neutral float-left" title="Do-It-Yourself Publication"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../about/" class="btn btn-neutral float-right" title="About the project">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../DIY/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../about/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
